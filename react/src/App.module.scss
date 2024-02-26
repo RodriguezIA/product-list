@@ -1,0 +1,41 @@
+// Breakpoints para pantallas de teléfonos pequeños (menos de 576px)
+$telefono-chico: 575px;
+
+// Breakpoints para pantallas de teléfonos grandes (576px y más)
+$telefono-grande: 576px;
+
+// Breakpoints para tabletas pequeñas (768px y menos)
+$tableta-chica: 767px;
+
+// Breakpoints para tabletas grandes (768px y más)
+$tableta-grande: 768px;
+
+// Breakpoints para monitores hasta Full HD (1920px y menos)
+$full-hd: 1920px;
+
+// Breakpoints para monitores mayores a Full HD (1921px y más)
+$full-hd-mayor: 1921px;
+
+@media (max-width: $telefono-chico) {
+    .page {
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        padding: 0vh 5vw;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: $telefono-grande) and (max-width: $tableta-chica) {
+  // Estilos para pantallas de teléfonos grandes
+}
+
+@media (min-width: $tableta-grande) and (max-width: $full-hd) {
+  // Estilos para tabletas pequeñas
+}
+
+@media (min-width: $full-hd-mayor) {
+  // Estilos para monitores mayores a Full HD
+}
+
+// Puedes continuar agregando más media queries según sea necesario para tus diseños específicos
