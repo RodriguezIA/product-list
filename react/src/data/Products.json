@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Taza de cafe",
+            "price": 20.00,
+            "image_url": "https://images.pexels.com/photos/2764272/pexels-photo-2764272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": "1",
+            "name": "Taza de cafe",
+            "price": 20.00,
+            "image_url": "https://images.pexels.com/photos/2764272/pexels-photo-2764272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": "1",
+            "name": "Taza de cafe",
+            "price": 20.00,
+            "image_url": "https://images.pexels.com/photos/2764272/pexels-photo-2764272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    ]
+}
